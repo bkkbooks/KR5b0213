@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0213/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0213/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 黃籙十念儀
+  date: '2015-08-29 00:14:19.708088'
+  source:
+    repository: kanripo
+    path: KR5b0213
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0213_000-ZTDZ.yaml, hash: 'sha256:f5ef741b16a217cf55a29eb005e94d50387acf3908c1a5354eae6fdaed018fd1'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0213_000-ZTDZ.markers.yaml, hash: 'sha256:4e7621aa4b2a6ff70d55b63dc5fe8e7f6a5a9ee93c965c0a00aea993c360755a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0213_SJB_000-090736b
+    span:
+    - body
+    - 0
+    - 1614
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:d2816eb93e0c2a437f449a6e80379c681d8681103a589476778b45dde28ac5b7

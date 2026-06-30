@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0213/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0213/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 黃籙十念儀
+  date: '2015-08-29 00:14:19.708088'
+  source:
+    repository: kanripo
+    path: KR5b0213
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0213_000-HFL.yaml, hash: 'sha256:2f87ddbe67914ef696272bade845d3ab808cf0b07cd9d6f425295bed2451f7e6'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0213_000-HFL.markers.yaml, hash: 'sha256:4b913d2964d2c3b5e59ae912a8f945ebee99093f49be300b2a98a773d76edfaa'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0213_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1614
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:ebbce0a5a15f87f43e3595aaa5cc9bbdf60fa165ed1fb9233c1bc222167f3d67
